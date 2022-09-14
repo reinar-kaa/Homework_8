@@ -48,7 +48,7 @@ public class Main {
         for (int i = symbols.length - 1; i >=0 ; i--) {
             System.out.print(symbols[i] + ", ");
         }
-
+        System.out.println();
     }
 
     private static void task2() {
@@ -71,6 +71,7 @@ public class Main {
         for (int i = 0; i < symbols.length; i++) {
             System.out.print(symbols[i] + ", ");
         }
+        System.out.println();
     }
 
     private static void task1() {
@@ -78,5 +79,7 @@ public class Main {
         double[] numbers = {1.57, 7.654, 9.986};
         char[] symbols;
         symbols = new char[]{7729, 1904, 553, 12};
+        System.out.println();
     }
+
 }
